@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>safal's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+    <!-- Navbar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar__inner">
+            <a href="#" class="brand" aria-label="safal kafle logo">
+                <span>safal.</span>
+            </a>
+            <nav class="sidebar__nav" aria-label="primary">
+                <a href="#" class="sidebar__link active">home</a>
+                <a href="#" class="sidebar__link">about</a>
+                <a href="#" class="sidebar__link">services</a>
+                <a href="#" class="sidebar__link">works</a>
+                <a href="#" class="sidebar__link">contact</a>
+                <a href="#" class="sidebar__link">blog</a>
+            </nav>
+            <div class="sidebar__social">
+                <a href="#" aria-label="Facebook"><span>fb</span></a>
+                <a href="#" aria-label="Twitter"><span>tw</span></a>
+                <a href="#" aria-label="LinkedIn"><span>li</span></a>
+            </div>
+            <div class="sidebar__footer">
+                Copyright &copy; 2025 safal kafle <br> All rights reserved.
+            </div>
+        </div>
+    </aside>
+
+    <button class="mobile-menu" id="mobilemenu" aria-expanded="false">
+        <span class="mobile-menu__line"></span>
+        <span class="mobile-menu__line"></span>
+        <span class="mobile-menu__line"></span>
+        <span class="sr-only">Menu</span>
+    </button>
+
+    <main class="main-content">
+        <!-- hero section -->
+        <section id="home" class="section hero">
+            <div class="hero__background" aria-hidden="true">
+                <span class="hero__orb hero__orb--one"></span>
+                <span class="hero__orb hero__orb--two"></span>
+                <span class="hero__grid"></span>
+            </div>
+
+            <div class="hero__container">
+                <div class="hero__content" data-animate="fade-right">
+                    <p class="section-label">Home</p>
+                    <h1 class="hero__title">my name is <span>safal kafle</span></h1>
+                    <p class="hero__subtitle" data-animate="fade-up" style="--delay: 0.1s;">
+                        Aspiring Full-Stack Developer
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#contact" class="button button--primary">
+                            lets talk with me <span class="arrow">&#8599;</span>
+                        </a>
+                        <div class="hero__contact-info">
+                            <div class="contact-item">
+                                <span class="contact-icon">📞</span>
+                                <a href="tel:+977-9762682719" class="contact-text">+977-9762682719</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">✉️</span>
+                                <a href="mailto:subscribesaflife567@gmail.com" class="contact-text">subscribesaflife567@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="hero__visual" data-animate="fade-left" style="--delay: 0.2s;">
+                    <div class="hero__image-wrapper">
+                        <!-- ONLY ONE IMAGE HERE -->
+                        <img src="assets/aboutus.png" alt="safal kafle" class="about__image">
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="hero__scroll">
+                <span class="hero__scroll-circle"><span class="hero__scroll-arrow">↓</span></span>
+                <span class="hero__scroll-label">scroll</span>
+            </a>
+        </section>
+         
+        <!--About Section-->
+        <section id="about" class="section about">
+            <div class="about__intro">
+                <p class="section-label">NICE TO MEET YOU!</p>
+                <h2 class="section-title"> Welcome to...</h2>
+            </div>
+            <div class="about__content">
+                <div class="about__card">
+                    <!-- ONLY ONE IMAGE HERE -->
+                    <img src="assets/aboutus.png" alt="safal kafle">
+                </div>
+                <div class="about__text-block">
+                    <h3>safal kafle</h3>
+                    <h4>Product Designer Based in London</h4>
+                    <p>Hello there! My name is Safal kafle. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
+                    <a href="#" class="button button--primary">
+                        Download CV <span aria-hidden="true">&#8599;</span>
+                    </a>
+                </div>
+            </div>  
+
+            <div class="about__stats">
+                <div class="about__stat">
+                    <span class="about__stat-value">10+</span>
+                    <span class="about__stat-label">Years experience...</span>
+                    <p class="about__stat-text"> 
+                        With 10+ years experience as a professional designer, I bring the skills needed to make your project shine.
+                    </p>
+                </div>
+                <div class="about__stat">
+                    <span class="about__stat-value">14</span>
+                    <span class="about__stat-label">Clients Worldwide...</span>
+                    <p class="about__stat-text">
+                        Trusted partnerships across the globe, delivering delightful, thoughtful digital products.
+                    </p>
+                </div>
+            </div>
+
+            <blockquote class="about__quote">
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus sed sit ultrices et sed metus sollicitudin."
+            </blockquote>
+
+            <div class="experience">
+                <div class="experience__content">
+                    <p class="section-label">Experience</p>
+                    <h2 class="section-title">My Experience</h2>
+                    <p class="experience__text">
+                        Hello there! My name is safal kafle. I am a web designer and developer, and I'm very passionate to my work.
+                    </p>
+                    <a href="" class="button--primary">
+                        Download my resume <span aria-hidden="true">&#8599;</span>
+                    </a>
+                </div>            
+                <ul class="experience__timeline">
+                    <li>
+                        <span class="experience__time">2010 - Present</span>
+                        <span class="experience__time">lead UI/UX Designer</span>
+                        <span class="experience__time">Rolling Thunder</span>
+                    </li>
+                    <li>
+                        <span class="experience__time">2010 - 2018</span>
+                        <span class="experience__time">senior UI/UX Designer</span>
+                        <span class="experience__time">locost Accessories</span>
+                    </li>
+                    <li>
+                        <span class="experience__time">2006 - 2008</span>
+                        <span class="experience__time">junior UI/UX Designer</span>
+                        <span class="experience__time">Sagebrush</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Service Section-->
+        <section id="services" class="section services">
+            <div class="services__header">
+                 <p class="section-label">Service</p>
+                 <h2 class="section-title">My Specialties</h2>
+            </div>
+            <div class="service-item">
+                <div class="service-item__content">
+                    <h3 class="service-item__title">Web Design</h3>
+                     <p class="service-item__description">
+                        Customize a template or craft something from scratch with an immersive library at your disposal.
+                     </p>
+                </div>
+                <button class="service-item__toggle">+</button>
+            </div>
+            <div class="service-item">
+                <div class="service-item__content">
+                    <h3 class="service-item__title">UI/UX design</h3>
+                     <p class="service-item__description">
+                        Delivering seamless user experiences with a focus on clarity, inclusivity, and delight.
+                     </p>
+                </div>
+                <button class="service-item__toggle">+</button>
+            </div>
+            <div class="service-item">
+                <div class="service-item__content">
+                    <h3 class="service-item__title">mobile application</h3>
+                     <p class="service-item__description">
+                        Building functional, highly elegant utility patterns for both iOS and Android applications.
+                     </p>
+                </div>
+                <button class="service-item__toggle">+</button>
+            </div>
+            <div class="service-item">
+                <div class="service-item__content">
+                    <h3 class="service-item__title">digital marketing</h3>
+                    <p class="service-item__description">
+                        Digital marketing refers to the practice of promoting brands, products, and services through various online channels to engage with target audiences effectively.
+                    </p>
+                </div>
+                <button class="service-item__toggle">+</button>
+            </div>
+        </section>
+
+        <!--work section-->
+        <section id="testimonial" class="section testimonial-section">
+            <div class="testimonial-container">
+                <!-- Left Side: The floating portrait cutout-->
+                 <div class="testimonial__image-wrapper">
+                    <!-- ONLY ONE IMAGE HERE -->
+                    <img src="assets/aboutus.png" alt="User portrait" class="testimonial__image">
+                 </div>
+                 <!-- Right Side: the gradient content card-->
+                 <div class="testimonial__content-card">
+                    <span class="testimonial__subtitle">Testimonial</span>
+                    <h2 class="testimonial__title">What they say</h2>
+                    <blockquote class="testimonial__quote">
+                        "File storage made easy - including powerful features u won't find anywhere else. whether you're ...."
+                    </blockquote>
+                    <div class="testimonial__author">
+                        <strong class="testimonial__author-name">Larry Diamond</strong>
+                        <span class="testimonial__author-role">Chief Executive Officer, Besnik</span>
+                    </div>
+                    <div class="testimonial__controls">
+                        <button class="control-btn prev-btn">←</button>
+                        <button class="control-btn next-btn">→</button>
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <!--Blog Section-->
+        <section id="blogs" class="blogs section">
+            <div class="blogs__header">
+                <p class="section-label">Blog</p>
+                 <h2 class="section-title">Read my Blogs</h2>
+            </div>
+            <div class="blog-list">
+                <article class="blog-card">
+                    <time datetime="2026-06-17">17th june 2026</time>
+                     <h3>12 unique examples of portfolio websites</h3>
+                     <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=800&q=80" alt="Blog Image">
+                </article>
+                <article class="blog-card">
+                    <time datetime="2026-06-17">17th june 2026</time>
+                     <h3>12 unique examples of portfolio websites</h3>
+                     <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=800&q=80" alt="Blog Image">
+                </article>
+                <article class="blog-card">
+                    <time datetime="2026-06-17">17th june 2026</time>
+                     <h3>12 unique examples of portfolio websites</h3>
+                     <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=800&q=80" alt="Blog Image">
+                </article>
+            </div>
+            <div class="section-cta">
+                <a href="#" class="button button--ghost">
+                    load more <span aria-hidden="true">↗</span>
+                </a>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section id="contact" class="section contact">
+            <div class="contact__wrap">
+                <div class="contact__info">
+                    <p class="section-label">Contact</p>
+                    <h2 class="section-title">Reach out me</h2>
+                    <address>
+                        sitapaila balaram's house, kathmandu
+                    </address>
+                    <a href="tel:+977-9762682719" class="contact__phone">+977-9762682719</a>
+                    <a href="mailto:kaflesafal567@gmail.com" class="contact__email">kaflesafal567@gmail.com</a>
+                    <div class="contact__links">
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Linkedin</a>
+                    </div>
+                </div>
+                <form action="" class="contact__form">
+                    <h3>Any projects?</h3>
+                    <div class="contact__row">
+                         <label>
+                             <span>Name</span>
+                             <input type="text" name="name" placeholder="safal kafle"/>
+                         </label>
+                         <label>
+                             <span>Email</span>
+                             <input type="email" name="email" placeholder="kaflesafal567@gmail.com"/>
+                         </label>
+                    </div>
+                    <div class="contact__message">
+                         <label>
+                            <span>Message</span>
+                            <textarea name="message" placeholder="tell me about your projects"></textarea>
+                         </label>
+                         <label class="contact__file">
+                            <span>Attach File</span>
+                            <input type="file" name="attachment">
+                         </label>
+                         <button type="submit" class="button button--primary">Submit Now</button>
+                         <span aria-hidden="true">↗</span>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>
